@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <meta property="og:title" content="Wiaah | market" />
         <meta property="og:type" content="website" />
         <MetaDescription content="wiaah is a world wide social marketplace for sellers and service providers" />
-        <MetaImage content="https://images.adsttc.com/media/images/5e68/48ed/b357/658e/fb00/0441/newsletter/AM1506.jpg?1583892706" />
+        <MetaImage content="https://www.ibrandingworks.com/img/s/v-10/p2941402848-3.jpg" />
         <RequiredSocialMediaTags />
       </Head>
       <div className={styles.container}>
