@@ -5,7 +5,7 @@ export interface MetaDescriptionProps {
 }
 
 export const MetaDescription: React.FC<MetaDescriptionProps> = (props) => {
-  if (!props) return null;
+  // if (!props) return null;
   const { content } = props;
   return (
     <>

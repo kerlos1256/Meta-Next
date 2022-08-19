@@ -5,7 +5,7 @@ export interface MetaImageProps {
 }
 
 export const MetaImage: React.FC<MetaImageProps> = (props) => {
-  if (!props) return null;
+  // if (!props) return null;
   const { content } = props;
   return (
     <>
