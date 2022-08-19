@@ -19,6 +19,8 @@ const Home: NextPage = () => {
         <title>Wiaah | market</title>
         <meta property="og:type" content="website" />
         {/* <MetaAuthor author="Wiaah" /> */}
+        <meta property="twitter:creator" content={"wiaah"} />;
+        <meta name="author" content={"wiaah"} />
         <MetaDescription content="wiaah is a world wide social marketplace for sellers and service providers , Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum" />
         <MetaImage content="https://images.adsttc.com/media/images/5efe/1f7f/b357/6540/5400/01d7/newsletter/archdaily-houses-104.jpg?1593712501" />
         <RequiredSocialMediaTags />
