@@ -9,6 +9,7 @@ export const MetaImage: React.FC<MetaImageProps> = (props) => {
   const { content } = props;
   return (
     <>
+      <meta name={"image"} itemProp="image" content={content} />
       <meta property="og:image" itemProp="image" {...props} content={content} />
     </>
   );
