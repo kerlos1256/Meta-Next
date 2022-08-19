@@ -10,10 +10,9 @@ export interface MetaKeywordsProps {
   content: string[];
 }
 
-export const MetaKeywords: React.FC<MetaKeywordsProps> = ({
-  content,
-  ...props
-}) => {
+export const MetaKeywords: React.FC<MetaKeywordsProps> = (props) => {
+  if (!props) return null;
+  const { content } = props;
   return (
     <meta
       {...props}

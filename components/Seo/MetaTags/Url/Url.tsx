@@ -4,7 +4,9 @@ export interface MetaUrlProps {
   url: string;
 }
 
-export const MetaUrl: React.FC<MetaUrlProps> = ({ url, ...props }) => {
+export const MetaUrl: React.FC<MetaUrlProps> = (props) => {
+  if (!props) return null;
+  const { url } = props;
   return (
     <>
       <meta name="url" content={url} {...props} />

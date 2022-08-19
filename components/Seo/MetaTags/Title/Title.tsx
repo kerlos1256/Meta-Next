@@ -4,10 +4,12 @@ export interface MetaTitleProps {
   content: string;
 }
 
-export const MetaTitle: React.FC<MetaTitleProps> = ({ content, ...props }) => {
+export const MetaTitle: React.FC<MetaTitleProps> = (props) => {
+  if (!props) return null;
+  const { content } = props;
   return (
     <>
-      <meta property="og:title" content={content} {...props} />;
+      <meta {...props} property="og:title" content={content} />;
       <title>{content}</title>
     </>
   );

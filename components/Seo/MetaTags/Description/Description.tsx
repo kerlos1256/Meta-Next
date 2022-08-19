@@ -4,10 +4,9 @@ export interface MetaDescriptionProps {
   content: string;
 }
 
-export const MetaDescription: React.FC<MetaDescriptionProps> = ({
-  content,
-  ...props
-}) => {
+export const MetaDescription: React.FC<MetaDescriptionProps> = (props) => {
+  if (!props) return null;
+  const { content } = props;
   return (
     <>
       <meta {...props} name="description" content={content} />
