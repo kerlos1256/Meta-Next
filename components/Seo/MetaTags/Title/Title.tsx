@@ -1,7 +1,7 @@
 import React from "react";
 
 export interface MetaTitleProps {
-  content: string;
+  content?: string;
 }
 
 export const MetaTitle: React.FC<MetaTitleProps> = (props) => {
