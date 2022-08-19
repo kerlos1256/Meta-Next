@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <Head>
         {/* <MetaTitle content="Wiaah | market" /> */}
         {/* <MetaDescription content="wiaah is a world wide social marketplace for sellers and service providers" /> */}
-        {/* <MetaImage content="https://images.adsttc.com/media/images/5e68/48ed/b357/658e/fb00/0441/newsletter/AM1506.jpg?1583892706" /> */}
+        <MetaImage content="https://images.adsttc.com/media/images/5e68/48ed/b357/658e/fb00/0441/newsletter/AM1506.jpg?1583892706" />
         {/* <RequiredSocialMediaTags /> */}
       </Head>
 
